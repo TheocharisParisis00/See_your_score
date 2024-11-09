@@ -23,13 +23,14 @@ The program uses C++ features such as arrays, `struct`, loops, and conditional s
 2. **Compile the Program**:
    - Open your terminal and navigate to the project folder. Then compile the C++ program using the following command:
      ```bash
-     g++ -o quiz quiz.cpp
+     g++ -std=c++11 index.cpp -o index
+
      ```
 
 3. **Run the Program**:
    - Once compiled, you can run the program with the command:
      ```bash
-     ./quiz
+     ./index
      ```
 
 4. **Answer the Questions**:
